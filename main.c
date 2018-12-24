@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>
-
+#include<conio.h>
+#include<stdlib.h> 
  char arr[9]={'0','1','2','3','4','5','6','7','8'};
  int temparr[9]={-1,-1,-1,-1,-1,-1,-1,-1,-1};
  int turn=0;
@@ -9,7 +8,7 @@
  int choice;
  int win=0;
  int condition=0;
-int main()
+int main() //main begin
 {
 
     while((win!=1)&&(turn!=9))
